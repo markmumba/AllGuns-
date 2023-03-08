@@ -12,8 +12,6 @@ export default function Catalogue() {
             description={gun.description}
             image={gun.image}
             origin={gun.origin}
-            sound = {`.${gun.sound}`}
-
         />)
     
     console.log (eachGun)
