@@ -4,14 +4,19 @@ import gundata from '../data'
 
 export default function Catalogue() {
 
+
+
     const eachGun = gundata.map(gun =>
         <Card
             title={gun.name}
             description={gun.description}
             image={gun.image}
             origin={gun.origin}
+            sound = {`.${gun.sound}`}
 
         />)
+    
+    console.log (eachGun)
 
     return (
         <div>
