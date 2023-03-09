@@ -12,17 +12,18 @@ export default function Catalogue() {
             description={gun.description}
             image={gun.image}
             origin={gun.origin}
+            sound = {`.${gun.sound}`}
         />)
     
-    console.log (eachGun)
+    
 
     return (
         <div>
-            <div className="catalogue">
+            <div   className="catalogue">
                 <h3>Gun catalogue</h3>
             </div>
-            <div className='container'>
-                <div className="row">
+            <div id="catalogue" className='container'>
+                <div className="row gy-3">
                         {eachGun}
                 </div>
             </div>

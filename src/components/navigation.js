@@ -15,11 +15,11 @@ export default function Navigation() {
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Catalogue </a>
+                            <a class="nav-link" href="#catalogue">Catalogue </a>
                         </li>
                      
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">contacts </a>
+                            <a class="nav-link " href="#contact" tabindex="-1" aria-disabled="true">contacts </a>
                         </li>
                     </ul>
                 </div>

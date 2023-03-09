@@ -5,6 +5,12 @@ import Contact from "./components/contact";
 
 
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'animate.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 
 function App() {
