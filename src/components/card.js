@@ -13,14 +13,14 @@ export default function Card(props) {
     return (
         <div className="col">
 
-            <div className="card h-100"
-                data-aos="fade-up"
-                data-aos-duration="2000"
+            <div className="card h-80"
+              
                 style=
                 {{
                     width: '18rem',
                     boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'
-                }}>
+                }}
+                >
                 <img src={props.image} className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
